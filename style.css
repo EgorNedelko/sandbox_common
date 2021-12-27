@@ -38,6 +38,11 @@ li {
 a {
    text-decoration: none;
    color: #000;
+   display: inline-block;
+   border: 1.5px solid gray;
+   border-radius: 25%;
+   padding: 8px;
+   vertical-align: middle;
 }
 
 button {
@@ -72,7 +77,7 @@ li {
 .item.border > h5,
 .item.border > h6,
 .item.border > p,
-.item.border > a,
+.item.border > .lnkwithText,
 .item.border > .list > li,
 .item.border.block {
    max-width: fit-content;
